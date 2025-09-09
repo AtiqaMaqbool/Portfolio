@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- [Meta and title] -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Marcos Rezende | UX Portfolio (Clone + Hub)</title>
+
+  <!-- [Link flat CSS] -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- [Fonts (optional, safe CDN)] -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- [Navbar] -->
+  <nav class="navbar">
+    <div class="container wrap">
+      <a class="brand" href="#home">Marcos Rezende</a>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#mentorship">Mentorship</a>
+        <a href="#resume">Resume</a>
+        <a href="https://marcosrezende.medium.com/" target="_blank" rel="noopener">Writing</a>
+        <a href="#connect">Let’s Connect</a>
+        <!-- [Portfolio Hub simple dropdown-like menu (no folders)] -->
+        <div class="dropdown">
+          <a href="#" class="dropdown-toggle">Portfolio Hub ▾</a>
+          <div class="dropdown-menu">
+            <a href="#fehmeeda">Fehmeeda Mustafa</a>
+            <a href="#atiqa">Atiqa Maqbool</a>
+            <a href="#muniba">Muniba Bashir</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- [Hero / Home] -->
+  <header id="home" class="container hero">
+    <div>
+      <div class="headline">Hi there! I’m Marcos Rezende,<br>a Senior UX Designer based in Ottawa, Canada</div>
+      <p class="lead">Designing intuitive AI solutions that empower users to discover, understand, and act on data insights at Qlik.</p>
+      <div class="actions">
+        <a class="btn" href="#about">Learn more</a>
+        <!-- [Direct Google Drive Resume button will be set below in Resume section too] -->
+        <a class="btn secondary" href="#resume">Download Resume</a>
+      </div>
+    </div>
+    <!-- [Use an online image URL; replace with your own if you want] -->
+    <div class="preview card">
+      <img src="https://images.unsplash.com/photo-1529336953121-a9d2d7f3fc74?q=80&w=1200&auto=format&fit=crop" alt="Hero preview">
+    </div>
+  </header>
+
+  <!-- [About] -->
+  <section id="about" class="container section">
+    <h2>About me</h2>
+    <p class="lead">I specialize in complex data interfaces, AI-assisted workflows, and evidence-based UX. I mentor designers transitioning into data-heavy products.</p>
+  </section>
+
+  <!-- [Work] -->
+  <section id="work" class="container section">
+    <h2>Selected projects</h2>
+    <p class="lead">Here is a sample of projects I’ve worked on.</p>
+    <div class="grid">
+      <article class="case card">
+        <div class="tag">Case study</div>
+        <h3>COVID‑19 Dashboard for Ontario</h3>
+        <p>Reshaping provincial data visualization for enhanced public awareness by correlating KPIs with evolving social guidelines.</p>
+      </article>
+      <article class="case card">
+        <div class="tag">Case study</div>
+        <h3>Neighborhood Insights</h3>
+        <p>Interactive, geospatial views for community-level decision making. (Coming soon)</p>
+      </article>
+      <article class="case card">
+        <div class="tag">Tooling</div>
+        <h3>AI-Assisted Exploration</h3>
+        <p>Combines natural language prompts with visual analysis for faster insight discovery.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- [Mentorship] -->
+  <section id="mentorship" class="container section">
+    <h2>UX Mentorship</h2>
+    <p class="lead">Portfolio reviews, case study consultations, interview prep, and strategic career planning for data-centric products.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Portfolio review</h3>
+        <p>Positioning, storytelling, and visual polish that passes the 30‑second skim.</p>
+      </div>
+      <div class="card">
+        <h3>Case study consult</h3>
+        <p>Problem framing, evidence, and metrics that hiring managers expect.</p>
+      </div>
+      <div class="card">
+        <h3>Career strategy</h3>
+        <p>Clarify goals, define gaps, and craft a growth plan around data/AI products.</p>
+      </div>
+    </div>
+    <div class="actions">
+      <a class="btn" href="https://cal.com/" target="_blank" rel="noopener">Book a session</a>
+      <a class="btn secondary" href="https://gumroad.com/" target="_blank" rel="noopener">Check my resources</a>
+    </div>
+  </section>
+
+  <!-- [Resume (Google Drive embed + download)] -->
+  <section id="resume" class="container section">
+    <h2>Resume</h2>
+    <p class="lead">View or download the resume below.</p>
+
+    <!-- 
+      [Make your Drive file public: Right-click file > Get link > Anyone with the link (Viewer)]
+      [Use the preview link format: https://drive.google.com/file/d/FILE_ID/preview]
+      [Replace FILE_ID with your actual ID (the long string after /d/ in your Drive link)]
+    -->
+    <div class="card pdf-wrap">
+      <iframe class="pdf" 
+        src="https://drive.google.com/file/d/1f2o3wVRv7WbyEMNoyPKEwoHCusU5aWBX/preview">
+</iframe>
+    </div>
+    <!-- 
+      [Optional direct download link]
+      [Use: https://drive.google.com/uc?export=download&id=FILE_ID ]
+    -->
+    <p class="pdf-actions">
+      <a class="btn" href="https://drive.google.com/uc?export=download&id=1f2o3wVRv7WbyEMNoyPKEwoHCusU5aWBX">Download PDF</a>
+    </p>
+  </section>
+
+  <!-- [Writing link already in navbar opens Medium in new tab] -->
+
+  <!-- [Let’s Connect] -->
+  <section id="connect" class="container section">
+    <h2>Let’s connect</h2>
+    <p class="lead">Feel free to hit me up. I’m looking forward to hearing from you.</p>
+    <div class="socials">
+      <a href="mailto:hello@marcosrezende.com">Email</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+    </div>
+  </section>
+
+  <!-- [Portfolio Hub — all inside same page, no extra files] -->
+  <section id="hub" class="container section">
+    <h2>Portfolio Hub</h2>
+    <p class="lead">Explore the team’s portfolios. Click a name from the menu or jump to a section below.</p>
+
+    <!-- [Fehmeeda] -->
+    <div id="fehmeeda" class="member card">
+      <h3>Fehmeeda Mustafa — Bioinformatician (Rawalpindi, Pakistan)</h3>
+      <div class="grid">
+        <div>
+          <p class="muted">I explore computational biology and data-driven health solutions. I love clean interfaces and reproducible research.</p>
+          <h4 style="margin-top:10px">Projects</h4>
+          <ul class="list">
+            <li>COVID‑19 Agent-based Modeling (NetLogo)</li>
+            <li>Portfolio Clone + Collaborative Hub</li>
+            <li>Omics Pipeline (R/Python)</li>
+          </ul>
+          <div class="socials">
+            <a href="mailto:fehmeeda@example.com">Email</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <div class="member-img">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="Fehmeeda">
+        </div>
+      </div>
+    </div>
+
+    <!-- [Atiqa] -->
+    <div id="atiqa" class="member card">
+      <h3>Atiqa Maqbool — Bioinformatician (Kashmir, Pakistan)</h3>
+      <div class="grid">
+        <div>
+          <p class="muted">Computational modeling, healthcare tech, and clean engineering. Focused on accessible, evidence‑based designs.</p>
+          <h4 style="margin-top:10px">Projects</h4>
+          <ul class="list">
+            <li>COVID‑19 Agent-based Model (NetLogo)</li>
+            <li>Multi‑page Portfolio (flat routing, GitHub Pages)</li>
+            <li>Clinical Data Explorer (Python + Plotly)</li>
+          </ul>
+          <div class="socials">
+            <a href="mailto:atiqa@example.com">Email</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <div class="member-img">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" alt="Atiqa">
+        </div>
+      </div>
+    </div>
+
+    <!-- [Muniba] -->
+    <div id="muniba" class="member card">
+      <h3>Muniba Bashir — Bioinformatician (Chakwal, Pakistan)</h3>
+      <div class="grid">
+        <div>
+          <p class="muted">Data visualization, interaction design, and UX for scientific tools.</p>
+          <h4 style="margin-top:10px">Projects</h4>
+          <ul class="list">
+            <li>Lab UI Redesign (task flow simplification)</li>
+            <li>Portfolio & Hub (reusable components)</li>
+            <li>Analytics Notebook (reproducible reporting)</li>
+          </ul>
+          <div class="socials">
+            <a href="mailto:muniba@example.com">Email</a>
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+        <div class="member-img">
+          <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop" alt="Muniba">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">© 2025 – UX Portfolio (Clone + Hub). All rights reserved.</div>
+  </footer>
+
+  <!-- [Link flat JS] -->
+  <script src="app.js"></script>
+</body>
+</html>
